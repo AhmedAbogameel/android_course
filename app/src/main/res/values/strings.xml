@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">android_course</string>
+    <string name="app_name">Android Course</string>
+    <string name="welcome_jemi">Welcome Jemi</string>
+    <string name="save">Save</string>
+    <string-array name="colors">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Black</item>
+    </string-array>
 </resources>
