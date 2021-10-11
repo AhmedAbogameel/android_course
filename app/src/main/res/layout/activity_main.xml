@@ -13,14 +13,18 @@
             android:hint="To:"
             android:layout_weight="1"
             android:layout_margin="@dimen/all_margins"
+            style="@style/editText"
+            android:background="@drawable/custom_edit_text"
     />
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Message"
+            android:layout_margin="@dimen/all_margins"
             android:gravity="top|center"
             android:layout_weight="11"
-            android:layout_margin="@dimen/all_margins"
+            style="@style/editText"
+            android:background="@drawable/custom_edit_text"
     />
     <LinearLayout
             android:layout_width="match_parent"
@@ -35,6 +39,7 @@
                 android:text="Send"
                 android:onClick="onSend"
                 android:id="@+id/send"
+                android:background="@drawable/custom_button"
         />
         <Button
                 android:layout_width="wrap_content"
@@ -43,6 +48,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/all_margins"
                 android:text="Call"
+                android:background="@drawable/custom_button"
                 android:onClick="onCall"
         />
     </LinearLayout>
