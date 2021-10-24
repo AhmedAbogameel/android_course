@@ -7,12 +7,32 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
     <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:layout_width="350dp"
+            android:layout_height="57dp"
+            android:text=""
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.102"
+            android:id="@+id/locationTV"/>
+    <TextView
+            android:text=""
+            android:layout_width="343dp"
+            android:layout_height="189dp"
+            android:id="@+id/responseTV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/locationTV"
+            android:layout_marginTop="116dp"/>
+    <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gradeTV"
+            app:layout_constraintTop_toBottomOf="@+id/responseTV"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
