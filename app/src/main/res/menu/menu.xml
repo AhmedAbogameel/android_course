@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+                android:title="Item"
+                android:icon="@android:drawable/ic_menu_send"/>
+        <item
+                android:title="Item"
+                android:icon="@android:drawable/ic_menu_send"/>
+    </group>
+    <group>
+        <menu
+        >
+            <item
+                    android:title="Item"
+                    android:icon="@android:drawable/ic_menu_send"/>
+        </menu>
+    </group>
+</menu>
